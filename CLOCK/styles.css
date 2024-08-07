@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #ff6f61, #d4a5a5);
+    font-family: 'Arial', sans-serif;
+}
+
+.clock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5em;
+    font-weight: bold;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.time {
+    background: linear-gradient(45deg, #ff6f61, #d4a5a5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin: 0 5px;
+    text-align: center;
+    transition: background 0.3s ease;
+}
+
+.time:hover {
+    background: linear-gradient(45deg, #ff9a8b, #d4a5a5);
+}
+
+div{
+    background-color: #ff6f61;
+    color: #6b1008;
+    border: 2px solid brown;
+    margin-right: 20px;
+}
